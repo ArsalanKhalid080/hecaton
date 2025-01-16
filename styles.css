@@ -72,17 +72,121 @@ body {
 .more{
     display:flex;
     justify-content:center;
-    font-size:40px;
+    font-size:30px;
 }
 
 .cards{
+    background-color: #ffffff;
     display:flex;
+    margin-left: 250px;
+    margin-right: 200px;
+    margin-top: 50px;
+    justify-content: space-around;
+}
+
+.card1{
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .card1 h1{
     font-size:25px;
 }
+.card1 h1:hover{
+    text-decoration: underline;
+}
 
 .card1 p{
     font-size:15px;
+    font-weight: 300;
 }
+
+.card1 a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.card1 a:hover{
+    text-decoration: underline;
+}
+
+.end-content{
+    display:flex;
+    justify-content:center;
+    margin-top: 50px;
+    margin-left: 250px;
+    margin-right:250px
+}
+
+.footer-content p{
+    border-radius:10px;
+    padding:20px;
+    background-color:#F0F0F0;
+    font-weight: 200;
+}
+
+.footer-content span{
+    background-color:#F0F0F0;
+    color: blue;
+    font-weight: 200;
+}
+
+.footer-content span:hover{
+    text-decoration:underline;
+    cursor:pointer;
+}
+
+
+       .header {
+            background:#F0F0F0;
+            padding: 10px 0;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+        .follow-us {
+            display:flex;
+            justify-content:center;
+            gap:20px;
+            margin-top: 10px;
+            font-weight:200;
+        }
+        .ad-banner {
+            background: white;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .ad-banner img {
+            max-width: 150px;
+            margin-right: 15px;
+        }
+        .ad-text {
+            text-align: left;
+        }
+        footer {
+            font-weight:200;
+            padding: 20px;
+            margin-top: 20px;
+            font-size: 14px;
+        }
+
+       
+        .main-title h1 {
+            background: #F0F0F0;
+            text-align:center;
+            font-size: 32px;
+            font-weight: bold;
+        }
